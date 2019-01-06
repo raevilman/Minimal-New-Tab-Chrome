@@ -1,0 +1,67 @@
+/*Copyright Benjamin Developments (c) 2017 - All rights reserved*/
+
+.titanic {
+  float: none;
+}
+
+a:visited {
+  color: black;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  -webkit-user-select: none;
+  transition: background-color 1s;
+}
+
+#options {
+  cursor: pointer;
+  border: none;
+  background-color: #ffffff;
+  opacity: 0;
+  font-size: 150%;
+  cursor: pointer;
+  transition: background-color 1s, opacity 1s;
+}
+
+#star {
+  cursor: pointer;
+  border: none;
+  background-color: #ffffff;
+  opacity: 0;
+  font-size: 160%;
+  transition: background-color 1s, opacity 1s;
+}
+
+#templates {
+  border: none;
+  background-color: #ff0000;
+  transition: background-color 1s, opacity 1s;
+}
+
+#text {
+  text-align: center;
+  font-size: 100%;
+  opacity: 0;
+  font-family: 'Montserrat', sans-serif;
+  cursor: default;
+  transition: opacity 0.5s;
+}
+
+#clockbox {
+  text-align: center;
+  opacity: 0;
+  margin-top: 28%;
+  font-size: 700%;
+  cursor: default;
+  transition: opacity 1.5s;
+}
+
+#datebox {
+  text-align: center;
+  opacity: 0;
+  font-size: 200%;
+  cursor: default;
+  transition: opacity 1.5s;
+}
