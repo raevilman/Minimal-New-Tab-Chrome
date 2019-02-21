@@ -52,10 +52,17 @@ body {
 #clockbox {
   text-align: center;
   opacity: 0;
-  margin-top: 28%;
+  /* margin-top: 28%; */
   font-size: 700%;
   cursor: default;
   transition: opacity 1.5s;
+}
+
+#clock-date-parent{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
 }
 
 #datebox {
