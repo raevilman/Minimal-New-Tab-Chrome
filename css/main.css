@@ -47,6 +47,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   cursor: default;
   transition: opacity 0.5s;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 #clockbox {
