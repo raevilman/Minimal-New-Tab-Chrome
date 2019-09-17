@@ -3,6 +3,9 @@ Chrome's new tab replacement.
 
 ## How to use?
 
+[Video guide | YouTube](https://www.youtube.com/watch?v=nBLt7JWSm7k)
+
+
 Extensions can be loaded in unpacked mode by following the following steps:  
 
 - Visit chrome://extensions (via omnibox or menu -> Tools -> Extensions).  
