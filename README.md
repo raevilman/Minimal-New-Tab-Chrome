@@ -1,6 +1,15 @@
 # Minimal-New-Tab-Chrome
 Chrome's new tab replacement. 
 
+## How to use?
+
+Extensions can be loaded in unpacked mode by following the following steps:  
+
+- Visit chrome://extensions (via omnibox or menu -> Tools -> Extensions).  
+- Enable Developer mode by ticking the checkbox in the upper-right corner.  
+- Click on the "Load unpacked extension..." button.  
+- Select the directory, you have cloned or downloaded this repository into.  
+
 ## Screenshots  
 
 #### #1  
