@@ -23,6 +23,22 @@ body {
   font-size: 150%;
   cursor: pointer;
   transition: background-color 1s, opacity 1s;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+#colorpicker-input {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+  cursor: pointer;
+  border: none;
+  z-index: 2;
 }
 
 #star {

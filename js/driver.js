@@ -112,6 +112,13 @@ window.onload = function() {
 	document.getElementById("text").style.opacity = "1";
 	updateOptionsStyle();
 	clock();
+
+	new jscolor(document.getElementById('colorpicker-input'), {
+		value: gc("background"),
+		onFineChange: function() {
+			updateColor(this);
+		}
+	});
 };
 
 function updateOptionsStyle(){
