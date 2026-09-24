@@ -1,15 +1,15 @@
 /*Copyright Benjamin Developments (c) 2017 - All rights reserved*/
 
-.titanic {
-  float: none;
-}
-
 a:visited {
   color: black;
 }
 
+:root {
+  --bg: #85929E;
+}
+
 body {
-  background-color: #ffffff;
+  background-color: var(--bg);
   font-family: 'Oswald', sans-serif;
   -webkit-user-select: none;
   transition: background-color 1s;
@@ -18,7 +18,7 @@ body {
 #options {
   cursor: pointer;
   border: none;
-  background-color: #ffffff;
+  background-color: var(--bg);
   opacity: 0;
   font-size: 150%;
   cursor: pointer;
@@ -39,21 +39,6 @@ body {
   cursor: pointer;
   border: none;
   z-index: 2;
-}
-
-#star {
-  cursor: pointer;
-  border: none;
-  background-color: #ffffff;
-  opacity: 0;
-  font-size: 160%;
-  transition: background-color 1s, opacity 1s;
-}
-
-#templates {
-  border: none;
-  background-color: #ff0000;
-  transition: background-color 1s, opacity 1s;
 }
 
 #text {
